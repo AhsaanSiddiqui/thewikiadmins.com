@@ -258,6 +258,9 @@ header .get-free {
   color: #fff;
   transition: all .5s ease-in-out;
 }
+.btn_help {
+  border: 0 !important;
+}
 .banner_content .geta .btn_help:hover{
   background-color: #fff;
   color: #000;

@@ -16,8 +16,8 @@ export default class ModalForm extends Component {
 
     render() {
         return (
-            <div>
-                <Button className="btn_help d-inline-block"  onClick={()=>{this.handleModal()}}> Get a quote <i className="fas fa-chevron-right"></i>
+            <>
+                <Button className="btn_help" onClick={()=>{this.handleModal()}}> Get a quote <i className="fas fa-chevron-right"></i>
                             </Button>
                 <Modal show={this.state.show} onHide={() => this.handleModal()}>
                     <Modal.Header closeButton>
@@ -30,7 +30,7 @@ export default class ModalForm extends Component {
                         </Button>
                     </Modal.Footer>
                 </Modal>
-            </div>
+            </>
         )
     }
 }
